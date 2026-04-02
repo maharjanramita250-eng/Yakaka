@@ -1,1 +1,7 @@
-emiiiiiiiii not emliii ho hai hight sano xa pudki xa last harami xa emii bahadur
+while (true) {
+  let answer = prompt("Type 'exit' to leave 😄");
+  if (answer === null || answer.toLowerCase() === "exit") {
+    alert("🎉 You escaped!");
+    break;
+  } else {
+    alert("😂 Still trapped!");
